@@ -575,3 +575,8 @@ nav.navigation a.button {
   visibility: visible;
   display: block;
 }
+
+code[data-lang=json] {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
