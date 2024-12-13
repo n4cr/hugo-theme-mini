@@ -19,6 +19,12 @@
               <div class="summary">{{ $summary | plainify | htmlUnescape }}</div>
           {{ end }}
 
+          {{ with .Params.image }}
+              <figure class="post-image">
+                  <img src="{{ . }}" alt="Post image for {{ $title }}">
+              </figure>
+          {{ end }}
+
         </section>
     {{ end }}
 
