@@ -251,7 +251,7 @@ nav.navigation a.button {
 
 .profile {
   margin: 60px auto 0 auto;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .profile .avatar {
